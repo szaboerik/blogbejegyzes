@@ -1,0 +1,14 @@
+body{
+    width:500px;
+}
+div {
+    border:1px solid gray;
+    padding:10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows:auto;
+    background-color: grey;
+    padding: 10px;
+  }

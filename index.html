@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szabó Erik</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ajax.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <button id="rendezes">Rendezés like szerint</button>
+    <form action="" >
+        <label for="kereses">Keresés</label>
+        <input type="text" name="kereses" id="kereses" placeholder="Írjon be egy keresőszót!">
+    </form>
+    <article class="grid-container">
+    <div class="megjelenit">
+        
+    </div>
+</article>
+        <section class="urlap">
+            <fieldset>
+                <legend>Adatok módosítása és új adat létrehozása</legend>
+                <label for="id">ID:</label>
+                <input type="text" name="id" id="id">
+                <label for="cim">Cím:</label>
+                <input type="text" name="cim" id="cimea">
+                <label for="leiras">Leírás:</label>
+                <textarea type="text" name="leiras" id="leirasa" cols="30" rows="10"></textarea>
+                <label for="datum">Dátum</label>
+                <input type="date" name="datuma" id="datuma">
+                <label for="szerzo">Szerző:</label>
+                <input type="text" id="szerzoa" name="szerzo">
+                <label for="lajkokszama">Lájkokszáma:</label>
+                <input type="number" name="lajkokszamaa" id="lajkokszamaa">
+                <br>
+                <div>
+                    <input type="button" id="ujadat" value="Új adat"/>
+                    <input type="button" id="modositas" value="Módosít">
+                </div>
+            </fieldset>
+        </section>
+</body>
+
+</html>
